@@ -1,0 +1,93 @@
+/* 设置全局样式 */
+body {
+    font-family: Arial, sans-serif; /* 设置字体为Arial，后备字体为sans-serif */
+    margin: 0; /* 去除默认的外边距 */
+    padding: 0; /* 去除默认的内边距 */
+    background-color: #f4f4f4; /* 设置背景颜色为浅灰色 */
+}
+
+/* 设置页眉样式 */
+header {
+    background: #333; /* 设置背景颜色为深灰色 */
+    color: #fff; /* 设置文字颜色为白色 */
+    padding: 10px 0; /* 设置上下内边距为10px，左右为0 */
+    text-align: center; /* 设置文本居中对齐 */
+}
+
+/* 设置导航样式 */
+nav {
+    font-size: 30px; /* 字体大小 */
+    margin: 20px 0; /* 设置上下外边距为20px，左右为0 */
+    text-align: right; /* 右对齐 */
+}
+
+/* 下拉菜单样式 */
+.dropdown {
+    position: relative; /* 相对定位 */
+    display: inline-block; /* 行内块级元素 */
+}
+
+.dropbtn {
+    color: #333; /* 字体颜色 */
+    padding: 5px 10px; /* 内边距 */
+    font-size: 20px; /* 字体大小 */
+    text-decoration: none; /* 去掉下划线 */
+}
+
+/* 下拉内容样式 */
+.dropdown-content {
+    display: none; /* 默认隐藏 */
+    position: absolute; /* 绝对定位 */
+    font-size: 20px; /* 字体大小 */
+    background-color: #f9f9f9; /* 背景颜色 */
+    min-width: 80px; /* 最小宽度 */
+    width: 10px; /* 设置下拉菜单的宽度 */
+    height: auto; /* 高度自动，根据内容调整 */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* 阴影效果 */
+    z-index: 1; /* 确保在其他元素之上 */
+}
+
+/* 下拉内容链接样式 */
+.dropdown-content a {
+    color: #333; /* 字体颜色 */
+    padding: 5px 10px; /* 内边距 */
+    text-decoration: none; /* 去掉下划线 */
+    display: block; /* 块级元素 */
+    font-size: 18px; /* 字体大小 */
+}
+
+/* 鼠标悬停时显示下拉内容 */
+.dropdown:hover .dropdown-content {
+    display: block; /* 显示下拉内容 */
+}
+
+/* 鼠标悬停时改变链接颜色 */
+.dropdown:hover .dropbtn {
+    background-color: #d1d1d1; /* 悬停时背景颜色 */
+}
+
+nav a {
+    font-size: 12px; /* 设置字体大小为12px，可以根据需要调整 */
+    margin-left: 15px; /* 设置链接之间的间距 */
+}
+
+/* 设置导航链接样式 */
+nav a {
+    margin: 0 15px; /* 设置链接之间的外边距为左右各15px */
+    color: #333; /* 设置链接文字颜色为深灰色 */
+    text-decoration: none; /* 去除链接的下划线 */
+}
+
+/* 设置主体内容样式 */
+main {
+    padding: 20px; /* 设置内边距为20px */
+}
+
+/* 设置页脚样式 */
+footer {
+    text-align: center; /* 设置文本居中对齐 */
+    padding: 8px 0; /* 设置上下内边距为10px，左右为0 */
+    background: #ffd272; /* 设置背景颜色为深灰色 */
+    color: #bbff8e; /* 设置文字颜色为白色 */
+    position: relative; /* 设置定位为相对定位 */
+}

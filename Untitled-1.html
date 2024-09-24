@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="stylesheet" type="text/css" href="D:\新建文件夹 (2)\program\css.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: url('https://www.bing.com/th/id/OIP.u0xJ7d269tM-TrKLlyP6HwHaEK?w=293&h=180&c=7&r=0&o=5&pid=1.7') no-repeat center center; /* 替换为你的图片URL */
+            background-size: 100%; /* 使背景图片覆盖整个区域 */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            animation: colorAnimation 10s linear infinite; /* 应用动画 */
+        }
+        @keyframes colorAnimation {
+            0% { background-color: rgba(255, 0, 191, 0.5); }
+            20% { background-color: rgba(154, 3, 255, 0.5); } 
+            40% { background-color: rgba(60, 255, 53, 0.5); }
+            60% { background-color: rgba(154, 3, 255, 0.5); }
+            100% { background-color: rgba(255, 0, 191, 0.5); } /* 更改头版颜色*/
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            font-size: 20px; /* 设置字体大小为12px，可以根据需要调整 */
+            margin: 0 5px; /* 设置链接之间的间距 */
+            padding: 0px 0px; /* 设置链接的上下和左右内边距 */
+            color: #333; /* 字体颜色 */
+            text-decoration: none; /* 去掉下划线 */
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人网站</h1>
+    </header>
+    <nav>
+        <div class="dropdown">
+            <a href="#about" class="dropbtn">关于我</a>
+            <div class="dropdown-content">
+                <a href="#profile">个人资料</a>
+                <a href="#skills">技能</a>
+                <a href="#hobbies">爱好</a>
+            </div>
+        </div>
+        </div>
+        <a href="#projects">项目</a>
+        <a href="https://s.team/p/fdcp-gkvh/CKHWTPRM">游戏社区账号</a>
+        <a href="#experience">游戏截图</a>
+        <a href="weixin://contacts/profile/{z2490623520}">联系我</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>关于我</h2>
+            <p>我热爱游戏，尤其钟情于 CS2，Steam 是我常常畅游的平台。</p>
+            <p>在职业领域，我担任产品经理一职，迄今为止，已拥有五次丰富的项目经历。
+                在我看来，产品是企业与用户之间的桥梁，它承载着企业的价值理念和用户的需求期望。
+                一个优秀的产品，不仅要具备卓越的功能和性能，更要能够深入洞察用户的痛点和需求，为用户提供切实可行的解决方案。
+                产品的设计应该以用户为中心，注重用户体验，从用户的角度出发去思考问题、解决问题。同时，产品也需要不断地创新和优化，以适应市场的变化和用户的需求升级。
+                只有持续地为用户创造价值，产品才能在激烈的市场竞争中立于不败之地。</p>
+            <p>对于未来的职业发展，我充满期待与憧憬。我期望能够不断提升自己的专业能力，在产品管理的道路上持续深耕。以敏锐的市场洞察力和卓越的创新思维，引领产品走向新的高度。我渴望带领团队打造出更具影响力和竞争力的产品，为用户创造更加优质的体验。同时，积极拓展业务领域，探索新的机遇与挑战，在不断变化的市场环境中稳步前行，实现个人价值与职业成就的双丰收。</p>
+        </section>
+        <section id="projects">
+            <h2>项目</h2>
+            <p>这里是我参与的项目。</p>
+        </section>
+        <section id="community">
+            <h2>游戏社区账号</h2>
+            <p>我的游戏社区账号:<a href="https://s.team/p/fdcp-gkvh/CKHWTPRM">添加我的steam</a></p>
+        </section>
+        <section id="experience">
+            <h2><a href="https://steamcommunity.com/profiles/76561198800848869/screenshots/">游戏截图</a></h2> <!-- 游戏经验截图标题 -->
+            <p>这里是我的游戏截图。</p> <!-- 游戏经验截图内容 -->
+        </section>
+        <section id="contact">
+            <h2><a href="weixin://contacts/profile/{z2490623520}">联系我</a></h2> <!-- 联系我的标题 -->
+            <p>这里是我的联系信息。</p> <!-- 联系信息内容 -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 个人网站</p>
+    </footer>
+    <script type="text/javascript" src="https://cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+</body>
+</html>
